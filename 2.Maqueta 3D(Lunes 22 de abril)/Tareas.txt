@@ -1,0 +1,6 @@
+2. Creación de una maqueta 3d para prototipado (lunes 22 de Abril) – 10%
+Desde el diseño del nivel, se construirá una maqueta 3d definiendo los espacios y
+estructuras presentes en la propuesta. Este nivel deberá ser navegable y servir para
+probar las ideas presentes en la documentación.
+La maqueta puede construirse en el software 3d o en editor de juego, pero deberá ser
+completamente funcional en Unity al terminar esta fase.

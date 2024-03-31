@@ -1,0 +1,9 @@
+3. Creación de Assets (Viernes 10 de Mayo) – 25%
+Cada miembro del equipo deberá realizar un mínimo de 9 assets 3d originales para el
+juego. Su diseño puede basarse en modelos u objetos ya existentes, pero todo el
+proceso de modelado y texturizado deberá ser realizado por el alumno.
+La complejidad del modelo no es importante, pero sí se valorará su calidad final y
+adecuación a la propuesta de juego.
+El resto de assets del juego pueden obtenerse desde la asset store de unity o desde
+otras páginas de recursos gratuitos en internet, incluyendo modelos, texturas y
+sonidos.

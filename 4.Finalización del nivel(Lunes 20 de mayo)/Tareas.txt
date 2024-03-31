@@ -1,0 +1,8 @@
+4. Finalización del nivel y compilación (Lunes 20 de Mayo) – 25%
+En base a la maqueta 3d y a los assets realizados, se añadirán todos los elementos
+gráficos y artísticos necesarios para terminar el nivel. Se añadirán iluminación y
+efectos, así como sonido y se compilará el escenario final en Unity.
+El escenario final deberá contener mínimo estos elementos:
+un nivel completamente navegable con zonas diferenciadas, elementos gráficos
+representativos del nivel, iluminación, efectos de postproceso, algún efecto de
+partículas y un mínimo de sonido.
