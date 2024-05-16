@@ -13,6 +13,9 @@ public class VideoTrigger : MonoBehaviour
     {
         videoPlayer = GetComponent<VideoPlayer>();
         playerEntered = false;
+
+        videoPlayer.loopPointReached += OnVideoEnd;
+        videoPlayer.targetTexture.Release();
     }
 
     void OnTriggerEnter(Collider other)
@@ -42,5 +45,17 @@ public class VideoTrigger : MonoBehaviour
                 videoPlayer.Play();
             }
         }
+    }
+
+    void OnVideoEnd(VideoPlayer vp)
+    {
+        vp.Stop();
+
+        vp.targetTexture.Release();
+    }
+
+    void OnDisable()
+    {
+        videoPlayer.loopPointReached -= OnVideoEnd;
     }
 }
