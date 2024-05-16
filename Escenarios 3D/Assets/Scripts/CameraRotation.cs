@@ -23,12 +23,12 @@ public class CameraRotation : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.J))
+        if (Input.GetKey(KeyCode.L))
         {
             camRotation.Rotate(0, rotationSpeed * Time.deltaTime, 0, Space.World);
             cameraTransform.Rotate(0, rotationSpeed * Time.deltaTime, 0, Space.World);
         }
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKey(KeyCode.J))
         {
             camRotation.Rotate(0, -rotationSpeed * Time.deltaTime, 0, Space.World);
             cameraTransform.Rotate(0, -rotationSpeed * Time.deltaTime, 0, Space.World);
