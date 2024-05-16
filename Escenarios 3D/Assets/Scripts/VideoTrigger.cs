@@ -3,16 +3,18 @@ using UnityEngine.Video;
 
 public class VideoTrigger : MonoBehaviour
 {
+    [SerializeField] private GameObject image;
     public VideoClip videoClip;
     private VideoPlayer videoPlayer;
     private bool playerEntered;
-    public bool playerEntered2;
+    private bool playerEntered2;
     private bool hasPlayed = false;
 
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
         playerEntered = false;
+        image.SetActive(false);
 
         videoPlayer.loopPointReached += OnVideoEnd;
         videoPlayer.targetTexture.Release();
@@ -40,6 +42,7 @@ public class VideoTrigger : MonoBehaviour
         {
             if (!videoPlayer.isPlaying && !hasPlayed)
             {
+                image.SetActive(true);
                 hasPlayed = true;
                 videoPlayer.clip = videoClip;
                 videoPlayer.Play();

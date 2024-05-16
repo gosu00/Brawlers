@@ -8,7 +8,7 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
+  m_SceneGUID: 5c55883c2d3445c4297e9c846915881a
   m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
 RenderSettings:
@@ -267,8 +267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7041ed0cfcc9d498d3bf986a80342c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 405470771}
   videoClip: {fileID: 32900000, guid: b790f55b189080e40bb9880f160c5b5c, type: 3}
-  playerEntered2: 0
 --- !u!328 &68320010
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3322,7 +3322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &405470772
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5123,6 +5123,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blockout_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a02414b18526c546bb3224cbda03c25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0a02414b18526c546bb3224cbda03c25,
         type: 3}
