@@ -66,7 +66,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0d9ae788e0e4aa140b812d5b036888f2,
         type: 3}
       propertyPath: m_Name
-      value: Tuberias_04_unity
+      value: Tuberias_04_gris
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d9ae788e0e4aa140b812d5b036888f2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

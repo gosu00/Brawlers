@@ -6673,6 +6673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427727430582230704, guid: 0a02414b18526c546bb3224cbda03c25,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2427727430582230704, guid: 0a02414b18526c546bb3224cbda03c25,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -7258,6 +7263,11 @@ PrefabInstance:
       value: blockout_Toilette_DEF
       objectReference: {fileID: 0}
     - target: {fileID: 1017382491983596684, guid: 9dc49e541dd5f6640bb2a0363e06cbac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349240145040145863, guid: 9dc49e541dd5f6640bb2a0363e06cbac,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -7906,7 +7916,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5110481
+      value: 0.7116653
       objectReference: {fileID: 0}
     - target: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7914,7 +7924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.85955215
+      value: -0.7025187
       objectReference: {fileID: 0}
     - target: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalRotation.z
@@ -7922,11 +7932,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4490257326247362, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -118.533
+      value: -89.259
+      objectReference: {fileID: 0}
+    - target: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f,
+        type: 3}
+      propertyPath: field of view
+      value: 60.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f,
+        type: 3}
+      propertyPath: m_FocalLength
+      value: 20.78461
       objectReference: {fileID: 0}
     - target: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f,
         type: 3}
       propertyPath: m_OcclusionCulling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20437472682476688, guid: 11aaea5348574644a9eb4f4504fcce3f,
+        type: 3}
+      propertyPath: m_projectionMatrixMode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7506676135724775508, guid: 11aaea5348574644a9eb4f4504fcce3f,
@@ -11667,6 +11692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: camara1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537153833963328057, guid: 483317532922149439f6112bc49865b8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8918676182826709180, guid: 483317532922149439f6112bc49865b8,
         type: 3}

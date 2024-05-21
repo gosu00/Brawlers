@@ -66,7 +66,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e00e68eb2e4539845a91ce06a6733c75,
         type: 3}
       propertyPath: m_Name
-      value: Tuberias_02_unity
+      value: Tuberias_02_unity_cobre_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e00e68eb2e4539845a91ce06a6733c75,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
