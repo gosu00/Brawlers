@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 50103f56924b2364c9263f7efbfea4a9, type: 2}
+    - target: {fileID: -3857002954835183203, guid: bdc41122152f0f0438510846dad535f5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -526211730887247987, guid: bdc41122152f0f0438510846dad535f5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -71,7 +76,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bdc41122152f0f0438510846dad535f5,
         type: 3}
       propertyPath: m_Name
-      value: monitor
+      value: monitor_prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdc41122152f0f0438510846dad535f5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369191375184185894, guid: bdc41122152f0f0438510846dad535f5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
