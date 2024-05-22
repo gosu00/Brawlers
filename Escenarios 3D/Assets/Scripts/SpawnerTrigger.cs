@@ -48,6 +48,7 @@ public class SpawnerTrigger : MonoBehaviour
         if (other.CompareTag("Player") && !hasPlayed)
         {
             hasPlayed = true;
+            gameObject.GetComponentInChildren<PlayAudio>().PlayAudioClip();
             StartCoroutine(Spawn());
         }
     }
@@ -65,8 +66,8 @@ public class SpawnerTrigger : MonoBehaviour
         spawnPrefab.SetActive(false);
         Destroy(spawnPrefab);
         hasHit = false;
-        flashLight.GetComponent<FlickerLight1>().enabled = false;
-        flashLight.GetComponent<Light>().intensity = flashLightIntensity;
+        //flashLight.GetComponent<FlickerLight1>().enabled = false;
+        //flashLight.GetComponent<Light>().intensity = flashLightIntensity;
         Destroy(gameObject);
     }
 
@@ -75,6 +76,6 @@ public class SpawnerTrigger : MonoBehaviour
         yield return new WaitForSeconds(delay);
         disable.SetActive(false);
         spawnPrefab = Instantiate(spawnPrefab, spawnPosition, rotation);
-        flashLight.GetComponent<FlickerLight1>().enabled = true;
+        //flashLight.GetComponent<FlickerLight1>().enabled = true;
     }
 }
