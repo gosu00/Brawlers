@@ -8,10 +8,8 @@ public class SpawnerTrigger : MonoBehaviour
     [SerializeField] private Vector3 spawnPosition;
     [SerializeField] private Quaternion rotation;
     [SerializeField] private GameObject disable;
-    [SerializeField] private GameObject enable;
     [SerializeField] private Vector3 finalPosition;
     [SerializeField] private float speed = 2f;
-    //[SerializeField] private FlickerLight1 flashLight;
     [SerializeField] GameObject flashLight;
 
     private bool hasPlayed = false;
@@ -36,6 +34,7 @@ public class SpawnerTrigger : MonoBehaviour
             {
                 if (!hasMoved)
                 {
+                    hasMoved = true;
                     StartCoroutine(StartMove());
                     StartCoroutine(Disable());
                 }
@@ -57,22 +56,24 @@ public class SpawnerTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         hasHit = true;
+        spawnPrefab.GetComponent<PlayAudio>().PlayAudioClip();
     }
 
     private IEnumerator Disable()
     {
-        yield return new WaitForSeconds(1f);
-        //spawnPrefab.SetActive(false);
-        enable.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        spawnPrefab.SetActive(false);
+        Destroy(spawnPrefab);
+        hasHit = false;
         flashLight.GetComponent<FlickerLight1>().enabled = false;
         flashLight.GetComponent<Light>().intensity = flashLightIntensity;
+        Destroy(gameObject);
     }
 
     private IEnumerator Spawn()
     {
         yield return new WaitForSeconds(delay);
         disable.SetActive(false);
-        enable.SetActive(true);
         spawnPrefab = Instantiate(spawnPrefab, spawnPosition, rotation);
         flashLight.GetComponent<FlickerLight1>().enabled = true;
     }
