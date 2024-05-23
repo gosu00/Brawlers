@@ -84,7 +84,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -92,7 +92,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &6002996287038132994
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -301,7 +301,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -309,7 +309,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &5872093720482057898
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -646,7 +646,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -654,7 +654,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 4}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &4821801342994392295
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -766,7 +766,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -1356,7 +1356,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -1364,7 +1364,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &2219381617655802805
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -3369,6 +3369,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3655,6 +3675,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9154308968979078728}
     m_Modifications:
+    - target: {fileID: 2988763017041134887, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507906372602390051, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5926249167618722259, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
       propertyPath: m_Name
@@ -3709,6 +3744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486490756317910476, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6257,6 +6297,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9154308968979078728}
     m_Modifications:
+    - target: {fileID: 2988763017041134887, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507906372602390051, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5926249167618722259, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
       propertyPath: m_Name
@@ -6311,6 +6366,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486490756317910476, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6460,6 +6520,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6479,6 +6559,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9154308968979078728}
     m_Modifications:
+    - target: {fileID: 2988763017041134887, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
       propertyPath: m_Range
@@ -6488,6 +6573,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 7.215654
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507906372602390051, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5926249167618722259, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
@@ -6543,6 +6638,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486490756317910476, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6730,6 +6830,26 @@ PrefabInstance:
     - target: {fileID: 7997751193036467928, guid: e56265de837dc914685f0b209fe08db3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9068,6 +9188,26 @@ PrefabInstance:
     - target: {fileID: 7997751193036467928, guid: e56265de837dc914685f0b209fe08db3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13124,6 +13264,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13528,6 +13688,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9154308968979078728}
     m_Modifications:
+    - target: {fileID: 2988763017041134887, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507906372602390051, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5926249167618722259, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
       propertyPath: m_Name
@@ -13582,6 +13757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486490756317910476, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17275,6 +17455,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18470,6 +18670,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9154308968979078728}
     m_Modifications:
+    - target: {fileID: 2988763017041134887, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
       propertyPath: m_Range
@@ -18479,6 +18684,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 7.215654
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193630400774047693, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507906372602390051, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5926249167618722259, guid: 969c9c242a72ba248b68cb73544a554a,
         type: 3}
@@ -18534,6 +18749,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486490756317910476, guid: 969c9c242a72ba248b68cb73544a554a,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19293,6 +19513,26 @@ PrefabInstance:
     - target: {fileID: 7997751193036467928, guid: e56265de837dc914685f0b209fe08db3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182041854732562192, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8233536744659130027, guid: e56265de837dc914685f0b209fe08db3,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
