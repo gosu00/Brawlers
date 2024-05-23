@@ -53,8 +53,8 @@ VisualEffect:
       m_Array:
       - m_Value: 16384
         m_Name: SpawnRate
-        m_Overridden: 1
-      - m_Value: 0.1
+        m_Overridden: 0
+      - m_Value: 0.3
         m_Name: Density
         m_Overridden: 1
     m_Vector2f:
@@ -69,7 +69,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 0.5645669, y: 0.3351455, z: 0.13769452, w: 1}
+      - m_Value: {x: 6.113208, y: 4.130939, z: 2.4510503, w: 1}
         m_Name: AmbientColor
         m_Overridden: 1
     m_Uint:
