@@ -78,10 +78,45 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 84eae7cc1652c974793a357f716b02d3, type: 2}
+    - target: {fileID: -6455017311963307504, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3079237846907314482, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 879644084916021924, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 369da1284e160754eae251b41d19e785,
         type: 3}
       propertyPath: m_Name
       value: caja-celula_low 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1021399493349282439, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067165938969318386, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918626127814188876, guid: 369da1284e160754eae251b41d19e785,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

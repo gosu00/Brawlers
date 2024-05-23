@@ -58,10 +58,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8634031836203092294, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4539077006000058066, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2781284890561469585, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2759931750739462002, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1991006033421845974, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1619612333739758893, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2205c2bd571419a4c85303dac90c2867,
         type: 3}
       propertyPath: m_Name
       value: celula_energia_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828582961478339228, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480821928847193820, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162014436808177586, guid: 2205c2bd571419a4c85303dac90c2867,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -58,10 +58,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8270582859685065485, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7917185315569209071, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2281304540578933998, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3dda8a3d25d19084b81179c5ce617448,
         type: 3}
       propertyPath: m_Name
       value: Pantalla_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819647682173875853, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883494559780228379, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219256062554885154, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033162895425051372, guid: 3dda8a3d25d19084b81179c5ce617448,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

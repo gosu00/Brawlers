@@ -78,10 +78,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ade7df041d50ec740beb9ad7291b3732, type: 2}
+    - target: {fileID: -4785393876808247554, guid: ef285420442cf15428c06f8f388b3634,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ef285420442cf15428c06f8f388b3634,
         type: 3}
       propertyPath: m_Name
       value: luz-emergencia_low 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef285420442cf15428c06f8f388b3634,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067165938969318386, guid: ef285420442cf15428c06f8f388b3634,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219256062554885154, guid: ef285420442cf15428c06f8f388b3634,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

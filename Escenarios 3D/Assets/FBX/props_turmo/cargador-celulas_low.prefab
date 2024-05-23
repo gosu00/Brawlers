@@ -58,10 +58,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8270582859685065485, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6606836473573054426, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2214709661826503242, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3004f4ade06b8034c957480cec466312,
         type: 3}
       propertyPath: m_Name
       value: cargador-celulas_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090388135199434665, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219256062554885154, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487490437097945959, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8817714248930368601, guid: 3004f4ade06b8034c957480cec466312,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
