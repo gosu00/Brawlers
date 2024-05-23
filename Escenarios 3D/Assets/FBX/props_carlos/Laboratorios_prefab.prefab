@@ -8118,7 +8118,7 @@ VideoPlayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4457310843102458825}
-  m_Enabled: 1
+  m_Enabled: 0
   m_VideoClip: {fileID: 32900000, guid: 97bc4ec34b0cba34a9b560bfade5d07c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
@@ -9198,6 +9198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
@@ -11041,6 +11046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -11132,7 +11142,7 @@ VideoPlayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7237062487810499598}
-  m_Enabled: 1
+  m_Enabled: 0
   m_VideoClip: {fileID: 32900000, guid: 97bc4ec34b0cba34a9b560bfade5d07c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
@@ -15805,6 +15815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -16943,6 +16958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: monitor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
@@ -22040,6 +22060,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -22698,6 +22723,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -22783,7 +22813,7 @@ VideoPlayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4078071860384808831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_VideoClip: {fileID: 32900000, guid: 97bc4ec34b0cba34a9b560bfade5d07c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
@@ -25026,6 +25056,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: monitor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3545572504324883616, guid: 4d8024446c445384a9a659886d76de69,
         type: 3}
