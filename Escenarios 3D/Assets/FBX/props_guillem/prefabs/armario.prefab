@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8056332152419301461
 Transform:
@@ -90,10 +90,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8435332116240425486, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4810646828223759043, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3466797410704515017, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
         type: 3}
       propertyPath: m_Name
       value: armario_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862717050945289442, guid: f5cb50ff96270bc43b1f0bd61cb20fe8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

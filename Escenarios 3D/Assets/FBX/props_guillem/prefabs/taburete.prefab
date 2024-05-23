@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5728547486935718386
 Transform:
@@ -40,6 +40,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5728547486935718386}
     m_Modifications:
+    - target: {fileID: -8957508826559602307, guid: f56fe8369707c414d9b5290ae6f61517,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f56fe8369707c414d9b5290ae6f61517,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -90,10 +95,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -910614364121028364, guid: f56fe8369707c414d9b5290ae6f61517,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f56fe8369707c414d9b5290ae6f61517,
         type: 3}
       propertyPath: m_Name
       value: taburete_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f56fe8369707c414d9b5290ae6f61517,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629681521580656497, guid: f56fe8369707c414d9b5290ae6f61517,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
