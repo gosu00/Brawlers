@@ -1,9 +1,0 @@
-1. Diseño de nivel (viernes 12 de Abril) – 10%
-Se aplicará todo lo trabajado en la práctica 1 para definir el nivel de juego a producir.
-Se puede usar el diseño de la P1 si se considera oportuno, adaptarlo o hacerlo nuevo.
-Se deberá desarrollar toda la documentación pertinente para explicar el diseño de
-niveles. Esta documentación debe contener un estudio de iluminación del nivel y un
-listado con todos los assets 3d necesarios acompañados de una referencia visual clara.
-Nota importante: el escenario debe estar dividido en tantas zonas o secciones identificables
-como miembros haya en el grupo. Cada miembro del grupo deberá desarrollar una de esas
-zonas/secciones, y su valoración final dependerá del resultado obtenido.
